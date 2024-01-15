@@ -105,4 +105,14 @@ class TravelTableViewController: UITableViewController {
         return 510
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 스토리보드 이름을 인식하지 못해서 에러가 납니다ㅠㅠ 이유를 모르겠네요..
+        let sb = UIStoryboard(name: "WebLinkViewController", bundle: nil)
+        
+        let vc = sb.instantiateViewController(withIdentifier: "WebLinkViewController") as! WebLinkViewController
+        
+        vc.webUrl = magazine[indexPath.row].link
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
