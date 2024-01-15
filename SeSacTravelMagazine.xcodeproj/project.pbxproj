@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ECE81912B55889700FAAA0D /* WebLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE81902B55889700FAAA0D /* WebLinkViewController.swift */; };
-		2ECE81932B5589A000FAAA0D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2ECE81922B5589A000FAAA0D /* Kingfisher */; };
+		2E24F54F2B55A8D6003E5BF5 /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E24F54E2B55A8D6003E5BF5 /* WebKitViewController.swift */; };
+		2E433A3F2B4C5791004F5D30 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2E433A3E2B4C5791004F5D30 /* Kingfisher */; };
 		2ED9DAA82B4C35F800E5A503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9DAA72B4C35F800E5A503 /* AppDelegate.swift */; };
 		2ED9DAAA2B4C35F800E5A503 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED9DAA92B4C35F800E5A503 /* SceneDelegate.swift */; };
 		2ED9DAAF2B4C35F800E5A503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED9DAAD2B4C35F800E5A503 /* Main.storyboard */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2ECE81902B55889700FAAA0D /* WebLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLinkViewController.swift; sourceTree = "<group>"; };
+		2E24F54E2B55A8D6003E5BF5 /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 		2ED9DAA42B4C35F800E5A503 /* SeSacTravelMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacTravelMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED9DAA72B4C35F800E5A503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ED9DAA92B4C35F800E5A503 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,21 +36,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECE81932B5589A000FAAA0D /* Kingfisher in Frameworks */,
+				2E433A3F2B4C5791004F5D30 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2ECE818D2B557C4F00FAAA0D /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				2ECE81902B55889700FAAA0D /* WebLinkViewController.swift */,
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
 		2ED9DA9B2B4C35F800E5A503 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +65,7 @@
 				2ED9DAA72B4C35F800E5A503 /* AppDelegate.swift */,
 				2ED9DAA92B4C35F800E5A503 /* SceneDelegate.swift */,
 				2ED9DAAD2B4C35F800E5A503 /* Main.storyboard */,
-				2ECE818D2B557C4F00FAAA0D /* WebView */,
+				2E24F54E2B55A8D6003E5BF5 /* WebKitViewController.swift */,
 				2ED9DAC12B4C40AB00E5A503 /* Travel */,
 				2ED9DAB02B4C35F900E5A503 /* Assets.xcassets */,
 				2ED9DAB22B4C35F900E5A503 /* LaunchScreen.storyboard */,
@@ -108,7 +100,7 @@
 			);
 			name = SeSacTravelMagazine;
 			packageProductDependencies = (
-				2ECE81922B5589A000FAAA0D /* Kingfisher */,
+				2E433A3E2B4C5791004F5D30 /* Kingfisher */,
 			);
 			productName = SeSacTravelMagazine;
 			productReference = 2ED9DAA42B4C35F800E5A503 /* SeSacTravelMagazine.app */;
@@ -169,9 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED9DAA82B4C35F800E5A503 /* AppDelegate.swift in Sources */,
-				2ECE81912B55889700FAAA0D /* WebLinkViewController.swift in Sources */,
 				2ED9DAC02B4C402500E5A503 /* TravelTableViewCell.swift in Sources */,
 				2ED9DAAA2B4C35F800E5A503 /* SceneDelegate.swift in Sources */,
+				2E24F54F2B55A8D6003E5BF5 /* WebKitViewController.swift in Sources */,
 				2ED9DABE2B4C370A00E5A503 /* TravelTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +334,6 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -374,7 +365,6 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -416,7 +406,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2ECE81922B5589A000FAAA0D /* Kingfisher */ = {
+		2E433A3E2B4C5791004F5D30 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2E433A3D2B4C5791004F5D30 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
